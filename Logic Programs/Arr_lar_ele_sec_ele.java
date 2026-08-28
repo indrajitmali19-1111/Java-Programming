@@ -17,18 +17,18 @@ class Arr_lar_ele_sec_ele
 			max=arr[i];					/* In this case Store MAx number in max variable */
 			
 		}
-		else if(arr[i]>second_max && second_max!=max){
+		/*else if(arr[i]>second_max && second_max!=max){
 			second_max=arr[i];
-		}
+		}*/
 		}
 		System.out.println("The Largest number is=" + max);
 		
-		/*for(int j=0;j<arr.length;j++){
-			if(arr[j]>second_max && second_max!=max)*/				/*first compare sec ele is small then and cond is max is greter than second then store ele*/
-			/*{
+		for(int j=0;j<arr.length;j++){
+		if(arr[j]>second_max && arr[j]!=max)				/*first compare sec ele is small then and cond is max is greter than second then store ele*/
+			{
 			second_max=arr[j];
 			}
-		} */
+		} 
 		
 		System.out.println("The second largest element is=" + second_max);
 		
