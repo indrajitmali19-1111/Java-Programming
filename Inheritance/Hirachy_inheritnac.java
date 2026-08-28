@@ -41,7 +41,7 @@ class Hirachy_inheritnac{
 		
 		child_three obj=new child_three(); //This is Child three Object
 		child_one obj1=new child_one(); //This is child one object
-		child_two obj=new child_two(); //This is Child two object
+		child_two obj2=new child_two(); //This is Child two object
 		
 		
 		obj.method_parent();
