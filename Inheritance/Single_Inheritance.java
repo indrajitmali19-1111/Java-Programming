@@ -19,7 +19,8 @@ class parent{    //Single leval inheritance
 
 
 class child extends parent{
-
+  
+  String name="My name"
 
 	/*Only extend and create objec of this class in a main method*/
 }
@@ -38,6 +39,7 @@ class Single_Inheritance{
 		cobj.parentmethod_second();
 		
 		System.out.println(cobj.parentvariable);
+		System.out.println(cobj.name);
 		
 
 	}
