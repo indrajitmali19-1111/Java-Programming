@@ -7,7 +7,7 @@ abstract class parent{
 		System.out.println("THis IS method Two");
 	}
 	
-	abstract static void method3();
+	abstract void method3();
 }
 
 
@@ -15,7 +15,7 @@ class child extends parent{
 	void method(){
 	System.out.println("This IS Abstract method in Abstract class");
 	}
-	static void method3(){
+	void method3(){
 		System.out.println("THis is Method three");
 	}
 	
@@ -30,6 +30,6 @@ class Abstractclass1{
 		child obj= new child();
 		obj.method1();
 		obj.method();
-		method3();
+		obj.method3();
 	}
 }
