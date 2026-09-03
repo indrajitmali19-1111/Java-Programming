@@ -8,7 +8,7 @@ class CharindextoChar{
 		String str="Indrajeet";
 		char strarr[]=str.toCharArray();
 		int index=2;
-		char character;
+		char character=strarr[0];
 		for(int i=0;i<strarr.length;i++){
 		if(index==i){
 			character=strarr[i];
