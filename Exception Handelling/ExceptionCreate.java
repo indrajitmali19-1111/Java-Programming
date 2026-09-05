@@ -23,6 +23,6 @@ class BalanceKamiAahe extends RuntimeException
 {
 	BalanceKamiAahe(String Exception)
 	{
-		super();
+		super(Exception);
 	}
 }
