@@ -1,4 +1,4 @@
-//Main meethod Default priority check
+//Main method Default priority check and child thread priority check
 
 import java.util.*;
 
